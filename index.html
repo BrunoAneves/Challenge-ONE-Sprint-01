@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <a class="logo" href="https://www.alura.com.br/"><img src="./Svgs/logo.svg" alt="logo Alura"></a>
+        <h1>Codificador e Decodificador de Texto</h1>
+    </header>
+    <main>
+
+
+
+        <div class="container-geral">
+
+            <div class="container1">
+
+                <textarea model="input" class="input" id="entradaTexto" placeholder="Digite seu texto"></textarea>
+                <div class="container1-info">
+                    <img class="container1-img" src="./Svgs/info.svg" alt="">
+                    <p class="container1-paragrafo">Apenas letras minúsculas e sem acento.</p>
+                </div>
+
+                <div class="botoes">
+                    <button class="button" id="botaoCodifica">Criptografar</button>
+                    <button class="button" id="botaoDescodifica">Descriptografar</button>
+                </div>
+            </div>
+
+
+            <div class="container2">
+                <textarea model="input" class="input-2" id="saida" placeholder="Nenhum texto"></textarea>
+                <img class="container2-img" id="ativo" src="./Svgs/sem_texto.svg" alt="imagem que indica que não tem texto codificado">
+                <h2 class="container2-texto" id="texto1">Nenhuma mensagem encontrada</h2>
+                <p class="container2-paragrafo" id="texto2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <div class="botoes">
+                    <button class="button2" id="copiar">Copiar</button>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer class="footer-total">
+        <div class="footer">
+            <a class="footer-a" href="https://github.com/BrunoAneves"><img class="footer-img" src="./Svgs/icons8-github.svg" alt="logo github">@BrunoAneves</a>
+
+            <a class="footer-a" href="https://www.linkedin.com/in/brunoaneves/"><img class="footer-img" src="./Svgs/icons8-linkedin.svg" alt="logo linkedin">Bruno Araujo</a>
+        </div>
+
+    </footer>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
