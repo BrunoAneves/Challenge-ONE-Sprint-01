@@ -7,7 +7,7 @@ Um codificador e decodificador de texto construído usando Javascript, HTML e CS
 Este projeto foi desenvolvido com o objetivo de cumprir o desafio do curso Front-end Alura em parceira com a Oracle!!
 
 # Link para acesso:
-<link href"https://brunoaneves.github.io/Challenge-ONE-Sprint-01/">
+https://brunoaneves.github.io/Challenge-ONE-Sprint-01/
 
 
 # Como funciona?
